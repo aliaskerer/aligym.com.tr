@@ -1,0 +1,82 @@
+.bg-dark {
+    background: #ff0000 !important;
+}
+
+.text-danger {
+    color: #f1f1f1 !important;
+    background-color: rgb(255, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: #007be0;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+body {
+    background: rgba(12, 10, 10, 0.5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.program-1 {
+    background-image: url('/img/bg2.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    padding: 40px 0; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header {
+    background-image: url('/img/bg2.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    padding: 160px 0; 
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+#map {
+    height: 450px;
+}
+
+.buttons {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    
+}
+
+.buttons:hover {
+    background: rgb(221, 29, 29);
+}
+
+.programs:hover {
+    background: rgba(83, 83, 83, 0.3);
+}
+
+@media (min-width: 768px) { 
+    .card-img-top {
+        height: 32vh;
+    }
+
+    #map {
+        height: 100%;
+    }
+ }
